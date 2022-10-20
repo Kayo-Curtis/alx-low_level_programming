@@ -2,17 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Entry point */
-/*Description: 'the program's description'*/
-/*Return: Always 0 (Success) */
+/**
+*main - Entry point
+*
+*Description: This is an if else loop checking for number
+*
+*Return: Always 0 (Success)
+*/
+
 int main(void)
-
 {
-
 int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+
 if (n == 0)
 {
 printf("%i is zero\n", n);
