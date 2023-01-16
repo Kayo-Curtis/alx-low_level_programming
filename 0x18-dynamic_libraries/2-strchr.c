@@ -1,14 +1,23 @@
 #include "main.h"
+#include <stddef.h> 
 /**
-*_isdigit - function that verifies if a  character is a digit or not
-*@c: tested character
-*Return: returns 1 if it is uppercase , 0 if not
+*_strchr - Returns a pointer to the first occurrence
+*of the character c in the string s, or NULL if the
+*character is not found
+*
+*@s:string targeted
+*@c:character targeted
+*
+*Return: returns pointer to first occcurence of c
 */
-
-int _isdigit(int c)
+char *_strchr(char *s, char c)
 {
-if ((c >= 48) && (c <= 57))
-return (1);
+	int i;
 
-return (0);
+	for (i = 0; (s[i] != c) && (s[i] != '\0'); i++)
+		;
+	if (s[i] == c)
+		return (s + i);
+	else
+		return (NULL);
 }
