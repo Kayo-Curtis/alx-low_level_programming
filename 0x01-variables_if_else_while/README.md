@@ -5,3 +5,5 @@ This folder contains alx task assignments in C codes for loops;
 3. while loop
 4. do while loop
 5. for loop 
+Thsi was done on February 21st 2023
+By Kayo Curtis
