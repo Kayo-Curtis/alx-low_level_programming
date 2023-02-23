@@ -22,6 +22,4 @@ _putchar(n);
 count++;
 _putchar('\n');
 }
-
-
 }
