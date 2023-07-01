@@ -5,7 +5,7 @@
   *@y: power.
   *
   *Return: x to the pow of y.
-  * -1 if x < 0.
+  * -1 if x < 0
   */
 int _pow_recursion(int x, int y)
 {
